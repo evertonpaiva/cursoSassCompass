@@ -1,7 +1,11 @@
+// Variaveis usadas no Sass
+
 $cor-padrao: #C24E4B;
 $cor-auxiliar: #1E2C35;
 $cor-branca: #FFF;
 $raio: 0.3em;
+
+// Mixins usados no Sass
 
 @mixin borda-arredondada($raio: 0.3em) {
   -webkit-border-radius: $raio;
