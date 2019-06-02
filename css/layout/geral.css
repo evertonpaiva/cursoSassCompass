@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$ponto-de-quebra".
+Error: Undefined variable: "$mq-mobile".
         on line 10 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\geral.scss
 
 5: 
@@ -7,7 +7,7 @@ Error: Undefined variable: "$ponto-de-quebra".
 7:   width: 940px;
 8:   margin: 0 auto;
 9: 
-10:   @media (max-width: $ponto-de-quebra) {
+10:   @media #{$mq-mobile} {
 11:   		width: 90%;
 12:   }
 13: }
@@ -17,6 +17,8 @@ Error: Undefined variable: "$ponto-de-quebra".
 Backtrace:
 C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\geral.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `map'
@@ -66,4 +68,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$ponto-de-quebra\".\A         on line 10 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\geral.scss\A \A 5: \A 6: .container {\A 7:   width: 940px;\A 8:   margin: 0 auto;\A 9: \A 10:   @media (max-width: $ponto-de-quebra) {\A 11:   		width: 90%;\A 12:   }\A 13: }\A 14: \A 15: .titulo-secao {"; }
+  content: "Error: Undefined variable: \"$mq-mobile\".\A         on line 10 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\geral.scss\A \A 5: \A 6: .container {\A 7:   width: 940px;\A 8:   margin: 0 auto;\A 9: \A 10:   @media #{$mq-mobile} {\A 11:   		width: 90%;\A 12:   }\A 13: }\A 14: \A 15: .titulo-secao {"; }
