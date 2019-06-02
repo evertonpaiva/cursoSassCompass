@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: wrong number of arguments (1 for 2) for `lighten'\A         on line 4 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\helpers\variaveis.scss\A \A 1: // Variaveis usadas no Sass\A 2: \A 3: $cor-padrao: darken(#C24E4B, 0);\A 4: $cor-auxiliar: lighten(#1E2C35), ;\A 5: $cor-branca: #FFF;\A 6: $raio: 0.3em;"}
