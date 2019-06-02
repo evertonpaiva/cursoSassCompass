@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$cor-padrao".
-        on line 28 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss
+        on line 33 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss
 
-23:   font-weight: bold;
-24: }
-25: 
-26: .destaque button {
-27:   margin-top: 1em;
-28:   background: $cor-padrao;
-29:   border: 0;
-30:   padding: .6em;
-31:   font-size: 1.2em;
-32:   @include borda-arredondada(50px);
-33:   @extend %sombra-padrao;
+28:   font-weight: bold;
+29: }
+30: 
+31: .destaque button {
+32:   margin-top: 1em;
+33:   background: $cor-padrao;
+34:   border: 0;
+35:   padding: .6em;
+36:   font-size: 1.2em;
+37:   @include borda-arredondada(50px);
+38:   @extend %sombra-padrao;
 
 Backtrace:
-C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss:28
+C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss:33
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$cor-padrao\".\A         on line 28 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss\A \A 23:   font-weight: bold;\A 24: }\A 25: \A 26: .destaque button {\A 27:   margin-top: 1em;\A 28:   background: $cor-padrao;\A 29:   border: 0;\A 30:   padding: .6em;\A 31:   font-size: 1.2em;\A 32:   @include borda-arredondada(50px);\A 33:   @extend %sombra-padrao;"; }
+  content: "Error: Undefined variable: \"$cor-padrao\".\A         on line 33 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss\A \A 28:   font-weight: bold;\A 29: }\A 30: \A 31: .destaque button {\A 32:   margin-top: 1em;\A 33:   background: $cor-padrao;\A 34:   border: 0;\A 35:   padding: .6em;\A 36:   font-size: 1.2em;\A 37:   @include borda-arredondada(50px);\A 38:   @extend %sombra-padrao;"; }

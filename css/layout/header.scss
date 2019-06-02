@@ -37,6 +37,12 @@ header {
   font-size: 1.2em;
   font-weight: lighter;
 
+  @media (max-width: 980px) {
+		position: static;
+		display: block;
+		text-align: center;
+	}
+
   ul {
     padding-left: 0;
   }
@@ -44,6 +50,10 @@ header {
   li {
     display: inline-block;
     width: 5em;
+
+    @media (max-width: 980px) {
+    		margin: .4em;
+  	}
   }
 
   a {
@@ -53,5 +63,15 @@ header {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.menu-principal,
+.menu-principal li,
+.post-destaque,
+.posts-antigos,
+form {
+  @media (max-width: 980px){
+    width: auto;
   }
 }
