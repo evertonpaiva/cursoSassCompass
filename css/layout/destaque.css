@@ -1,24 +1,30 @@
 /*
-Error: Undefined variable: "$cor-padrao".
-        on line 33 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss
+Error: Undefined variable: "$mq-mobile".
+        on line 10 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\destaque.scss
 
-28:   font-weight: bold;
-29: }
-30: 
-31: .destaque button {
-32:   margin-top: 1em;
-33:   background: $cor-padrao;
-34:   border: 0;
-35:   padding: .6em;
-36:   font-size: 1.2em;
-37:   @include borda-arredondada(50px);
-38:   @extend %sombra-padrao;
+5:   background-size: cover;
+6:   color: white;
+7:   height: 330px;
+8:   padding-top: 10em;
+9: 
+10:   @media #{$mq-mobile} {
+11:   		font-size: 14px;
+12:   		height: 250px;
+13: 	}
+14: }
+15: 
 
 Backtrace:
-C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss:33
+D:\Usuarios\evert\github\cursoSassCompass\css\layout\destaque.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `run_interp_no_strip'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:560:in `run_interp'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:525:in `visit_media'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +68,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$cor-padrao\".\A         on line 33 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\destaque.scss\A \A 28:   font-weight: bold;\A 29: }\A 30: \A 31: .destaque button {\A 32:   margin-top: 1em;\A 33:   background: $cor-padrao;\A 34:   border: 0;\A 35:   padding: .6em;\A 36:   font-size: 1.2em;\A 37:   @include borda-arredondada(50px);\A 38:   @extend %sombra-padrao;"; }
+  content: "Error: Undefined variable: \"$mq-mobile\".\A         on line 10 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\destaque.scss\A \A 5:   background-size: cover;\A 6:   color: white;\A 7:   height: 330px;\A 8:   padding-top: 10em;\A 9: \A 10:   @media #{$mq-mobile} {\A 11:   		font-size: 14px;\A 12:   		height: 250px;\A 13: 	}\A 14: }\A 15: "; }

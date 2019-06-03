@@ -1,4 +1,4 @@
-/** Blog **/
+#{$mq-mobile}/** Blog **/
 .blog {
   display: block;
   position: relative;
@@ -22,6 +22,10 @@
   width: 48%;
   display: inline-block;
   vertical-align: top;
+
+  @media #{$mq-mobile}{
+    width: auto;
+  }
 }
 
 .post-destaque {

@@ -37,10 +37,11 @@ header {
   font-size: 1.2em;
   font-weight: lighter;
 
-  @media (max-width: 980px) {
+  @media #{$mq-mobile} {
 		position: static;
 		display: block;
 		text-align: center;
+    width: auto;
 	}
 
   ul {
@@ -51,8 +52,9 @@ header {
     display: inline-block;
     width: 5em;
 
-    @media (max-width: 980px) {
+    @media #{$mq-mobile} {
     		margin: .4em;
+        width: auto;
   	}
   }
 
@@ -66,12 +68,8 @@ header {
   }
 }
 
-.menu-principal,
-.menu-principal li,
-.post-destaque,
-.posts-antigos,
 form {
-  @media (max-width: 980px){
+  @media #{$mq-mobile}{
     width: auto;
   }
 }

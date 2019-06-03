@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$cor-auxiliar".
-        on line 3 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\planos.scss
+        on line 3 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\planos.scss
 
 1: /** Planos **\/
 2: .planos {
@@ -12,7 +12,7 @@ Error: Undefined variable: "$cor-auxiliar".
 8: }
 
 Backtrace:
-C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\planos.scss:3
+D:\Usuarios\evert\github\cursoSassCompass\css\layout\planos.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -59,4 +59,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$cor-auxiliar\".\A         on line 3 of C:\Users\evert\Documents\GitHub\cursoSassCompass\css\layout\planos.scss\A \A 1: /** Planos **/\A 2: .planos {\A 3:   background: $cor-auxiliar;\A 4: }\A 5: \A 6: .planos h2 {\A 7:   color: $cor-branca;\A 8: }"; }
+  content: "Error: Undefined variable: \"$cor-auxiliar\".\A         on line 3 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\planos.scss\A \A 1: /** Planos **/\A 2: .planos {\A 3:   background: $cor-auxiliar;\A 4: }\A 5: \A 6: .planos h2 {\A 7:   color: $cor-branca;\A 8: }"; }

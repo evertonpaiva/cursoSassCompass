@@ -1,21 +1,16 @@
 /*
 Error: Undefined variable: "$mq-mobile".
-        on line 11 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\contato.scss
+        on line 1 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\blog.scss
 
+1: #{$mq-mobile}/** Blog **\/
+2: .blog {
+3:   display: block;
+4:   position: relative;
+5: }
 6: 
-7: form {
-8:   margin: 0 auto;
-9:   width: 50%;
-10: 
-11:   @media #{$mq-mobile}{
-12:     width: auto;
-13:   }
-14: }
-15: 
-16: .contato input,
 
 Backtrace:
-D:\Usuarios\evert\github\cursoSassCompass\css\layout\contato.scss:11
+D:\Usuarios\evert\github\cursoSassCompass\css\layout\blog.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -24,18 +19,7 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/per
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `map'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `run_interp_no_strip'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:560:in `run_interp'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:525:in `visit_media'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:423:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -68,4 +52,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$mq-mobile\".\A         on line 11 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\contato.scss\A \A 6: \A 7: form {\A 8:   margin: 0 auto;\A 9:   width: 50%;\A 10: \A 11:   @media #{$mq-mobile}{\A 12:     width: auto;\A 13:   }\A 14: }\A 15: \A 16: .contato input,"; }
+  content: "Error: Undefined variable: \"$mq-mobile\".\A         on line 1 of D:\Usuarios\evert\github\cursoSassCompass\css\layout\blog.scss\A \A 1: #{$mq-mobile}/** Blog **/\A 2: .blog {\A 3:   display: block;\A 4:   position: relative;\A 5: }\A 6: "; }
